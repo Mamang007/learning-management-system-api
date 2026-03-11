@@ -8,17 +8,19 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "express": "latest",
     "dotenv": "latest",
     "drizzle-orm": "latest",
+    "express": "latest",
+    "jsonwebtoken": "^9.0.3",
     "pg": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
     "@types/express": "latest",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "latest",
     "@types/pg": "latest",
+    "drizzle-kit": "latest",
     "tsx": "latest",
-    "drizzle-kit": "latest"
+    "typescript": "latest"
   }
 }
